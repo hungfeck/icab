@@ -1,0 +1,691 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>E:\Publish\ICAB</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="assets/css/ajax-loader.gif">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/css/animate.css">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/css/bootstrap.css.map">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/css/bootstrap.min.css">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/css/font-awesome.min.css">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/css/slick.css">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/css/styles.css">
+      <publishTime>09/19/2017 16:04:25</publishTime>
+    </File>
+    <File Include="assets/fonts/flexslider-icon.eot">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/fonts/flexslider-icon.svg">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/fonts/flexslider-icon.ttf">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/fonts/flexslider-icon.woff">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/fonts/fontawesome-webfont.eot">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/fonts/fontawesome-webfont.svg">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/fonts/fontawesome-webfont.ttf">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/fonts/fontawesome-webfont.woff">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/fonts/fontawesome-webfont.woff2">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/fonts/FontAwesome.otf">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/fonts/SVN-Raleway Italic.ttf">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/fonts/SVN-RalewayRegular.ttf">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/img/.DS_Store">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/img/avatar/avatar1.png">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/img/avatar/avatar2.png">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/img/avatar/avatar3.png">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/img/background.png">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/img/berry/berry-angled2.png">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/img/berry/bk-berry-ga.jpg">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/img/berry/bk-berry.jpg">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/img/berry/iphone-berry.png">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/img/berry/logo.png">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/img/berry/screens/calendar.jpg">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/img/berry/screens/menu.jpg">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/img/berry/screens/options.jpg">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/img/berry/screens/profile.jpg">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/img/berry/screens/sales.jpg">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/img/berry/screens/signup.jpg">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/img/berry/screens/weather.jpg">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/img/berry/Slides/berry-slide2.png">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/img/berry/Slides/family-berry.png">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/img/berry/Slides/hand-berry.png">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/img/eco/bk-eco-ga.jpg">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/img/eco/bk-eco.jpg">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/img/eco/eco-angled2.png">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/img/eco/iphone-eco.png">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/img/eco/logo.png">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/img/eco/screens/calendar.jpg">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/img/eco/screens/menu.jpg">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/img/eco/screens/options.jpg">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/img/eco/screens/profile.jpg">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/img/eco/screens/sales.jpg">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/img/eco/screens/signup.jpg">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/img/eco/screens/weather.jpg">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/img/eco/Slides/eco-slide2.png">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/img/eco/Slides/family-eco.png">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/img/eco/Slides/hand-eco.png">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/img/freeze/.DS_Store">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/img/freeze/bk-freeze-ga.jpg">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/img/freeze/bk-freeze.jpg">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/img/freeze/freeze-angled2.png">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/img/freeze/iphone-freeze.png">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/img/freeze/logo.png">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/img/freeze/screens/.DS_Store">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/img/freeze/screens/calendar.jpg">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/img/freeze/screens/menu.jpg">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/img/freeze/screens/options.jpg">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/img/freeze/screens/sales.jpg">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/img/freeze/screens/screen1.png">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/img/freeze/screens/signup.jpg">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/img/freeze/screens/weather.jpg">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/img/freeze/Slides/family-freeze.png">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/img/freeze/Slides/freeze-slide2.png">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/img/freeze/Slides/hand-freeze.png">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/img/transparent.png">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/js/.DS_Store">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/js/bootstrap.min.js">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/js/infobox.js">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/js/infobox_packed.js">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/js/jquery-1.11.1.min.js">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/js/jquery-1.11.1.min.map">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/js/less-1.7.0.min.js">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/js/markerclusterer.js">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/js/modernizr.custom.32033.js">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/js/placeholdem.min.js">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/js/rs-plugin/.DS_Store">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/js/rs-plugin/assets/arrowleft.png">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/js/rs-plugin/assets/arrowright.png">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/js/rs-plugin/assets/arrows.psd">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/js/rs-plugin/assets/arrow_large_left.png">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/js/rs-plugin/assets/arrow_large_right.png">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/js/rs-plugin/assets/arrow_left.png">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/js/rs-plugin/assets/arrow_left2.png">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/js/rs-plugin/assets/arrow_right.png">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/js/rs-plugin/assets/arrow_right2.png">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/js/rs-plugin/assets/black50.png">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/js/rs-plugin/assets/boxed_bgtile.png">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/js/rs-plugin/assets/bullet.png">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/js/rs-plugin/assets/bullets.png">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/js/rs-plugin/assets/bullets.psd">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/js/rs-plugin/assets/bullets2.png">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/js/rs-plugin/assets/bullet_boxed.png">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/js/rs-plugin/assets/coloredbg.png">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/js/rs-plugin/assets/grain.png">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/js/rs-plugin/assets/gridtile.png">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/js/rs-plugin/assets/gridtile_3x3.png">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/js/rs-plugin/assets/gridtile_3x3_white.png">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/js/rs-plugin/assets/gridtile_white.png">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/js/rs-plugin/assets/large_left.png">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/js/rs-plugin/assets/large_right.png">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/js/rs-plugin/assets/loader.gif">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/js/rs-plugin/assets/loader2.gif">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/js/rs-plugin/assets/navigdots.png">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/js/rs-plugin/assets/navigdots_bgtile.png">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/js/rs-plugin/assets/shadow1.png">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/js/rs-plugin/assets/shadow2.png">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/js/rs-plugin/assets/shadow3.png">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/js/rs-plugin/assets/small_arrows.psd">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/js/rs-plugin/assets/small_left.png">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/js/rs-plugin/assets/small_left_boxed.png">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/js/rs-plugin/assets/small_right.png">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/js/rs-plugin/assets/small_right_boxed.png">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/js/rs-plugin/assets/timer.png">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/js/rs-plugin/assets/timerdot.png">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/js/rs-plugin/assets/transparent.jpg">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/js/rs-plugin/assets/white50.png">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/js/rs-plugin/css/.DS_Store">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/js/rs-plugin/css/settings-ie8.css">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/js/rs-plugin/css/settings.css">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/js/rs-plugin/font/revicons.eot">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/js/rs-plugin/font/revicons.svg">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/js/rs-plugin/font/revicons.ttf">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/js/rs-plugin/font/revicons.woff">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/js/rs-plugin/images/decor_inside.png">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/js/rs-plugin/images/decor_inside_white.png">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/js/rs-plugin/images/decor_testimonial.png">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/js/rs-plugin/images/gradient/g30.png">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/js/rs-plugin/images/gradient/g40.png">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/js/rs-plugin/js/.DS_Store">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/js/rs-plugin/js/jquery.themepunch.plugins.min.js">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/js/rs-plugin/js/jquery.themepunch.revolution.js">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/js/rs-plugin/js/jquery.themepunch.revolution.min.js">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/js/scripts.js">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/js/slick.min.js">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="assets/js/waypoints.min.js">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="bin/Icab.dll">
+      <publishTime>09/19/2017 15:56:12</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>10/02/2013 12:10:10</publishTime>
+    </File>
+    <File Include="bin/Oracle.DataAccess.dll">
+      <publishTime>08/31/2012 06:26:22</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="favicon.png">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="gruntfile.js">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="Handler/CheckAlive.ashx">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="Handler/CheckLocation.ashx">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="Handler/CheckUserLocation.ashx">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="Handler/CountUsers.ashx">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="Handler/Download.ashx">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="Handler/GetAllLocations.ashx">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="Handler/GetInfoLocations.ashx">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="Handler/hungml.ashx">
+      <publishTime>08/17/2017 11:35:47</publishTime>
+    </File>
+    <File Include="Handler/Login.ashx">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="Handler/SendMail.ashx">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="index.aspx">
+      <publishTime>09/19/2017 16:01:55</publishTime>
+    </File>
+    <File Include="ktvbaohanh.html">
+      <publishTime>08/07/2017 16:27:51</publishTime>
+    </File>
+    <File Include="ktvbaohanh/css/style.css">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="ktvbaohanh/index.aspx">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="maps/Handler/GetAllLocations.ashx">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="maps/Handler/Handler1.ashx">
+      <publishTime>08/17/2017 13:46:44</publishTime>
+    </File>
+    <File Include="maps/highmap.aspx">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="maps/highmaps.js">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="maps/index.aspx">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="maps/index1.aspx">
+      <publishTime>08/18/2017 11:23:58</publishTime>
+    </File>
+    <File Include="maps/vn-all.js">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="Noaccess.aspx">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="PrecompiledApp.config">
+      <publishTime>09/19/2017 16:05:45</publishTime>
+    </File>
+    <File Include="sale/.DS_Store">
+      <publishTime>09/16/2017 09:48:42</publishTime>
+    </File>
+    <File Include="sale/css/reset.css">
+      <publishTime>09/16/2017 09:48:42</publishTime>
+    </File>
+    <File Include="sale/css/style.css">
+      <publishTime>09/16/2017 09:48:42</publishTime>
+    </File>
+    <File Include="sale/img/.DS_Store">
+      <publishTime>09/16/2017 09:48:42</publishTime>
+    </File>
+    <File Include="sale/img/cd-arrow.svg">
+      <publishTime>09/16/2017 09:48:42</publishTime>
+    </File>
+    <File Include="sale/img/cd-logo.svg">
+      <publishTime>09/16/2017 09:48:42</publishTime>
+    </File>
+    <File Include="sale/img/cd-logo2.png">
+      <publishTime>09/16/2017 09:48:42</publishTime>
+    </File>
+    <File Include="sale/img/iCab-Logo.png">
+      <publishTime>09/16/2017 09:48:42</publishTime>
+    </File>
+    <File Include="sale/img/screen-1.png">
+      <publishTime>09/16/2017 09:48:42</publishTime>
+    </File>
+    <File Include="sale/img/screen-2.png">
+      <publishTime>09/16/2017 09:48:42</publishTime>
+    </File>
+    <File Include="sale/img/screen-3.png">
+      <publishTime>09/16/2017 09:48:42</publishTime>
+    </File>
+    <File Include="sale/img/screen-4.png">
+      <publishTime>09/16/2017 09:48:42</publishTime>
+    </File>
+    <File Include="sale/index.aspx">
+      <publishTime>09/16/2017 09:48:42</publishTime>
+    </File>
+    <File Include="sale/index.html">
+      <publishTime>09/16/2017 09:48:42</publishTime>
+    </File>
+    <File Include="sale/js/.DS_Store">
+      <publishTime>09/16/2017 09:48:42</publishTime>
+    </File>
+    <File Include="sale/js/jquery-2.1.1.js">
+      <publishTime>09/16/2017 09:48:42</publishTime>
+    </File>
+    <File Include="sale/js/main.js">
+      <publishTime>09/16/2017 09:48:42</publishTime>
+    </File>
+    <File Include="sale/js/modernizr.js">
+      <publishTime>09/16/2017 09:48:42</publishTime>
+    </File>
+    <File Include="sale/partials/_layout.scss">
+      <publishTime>09/16/2017 09:48:42</publishTime>
+    </File>
+    <File Include="sale/partials/_mixins.scss">
+      <publishTime>09/16/2017 09:48:42</publishTime>
+    </File>
+    <File Include="sale/partials/_variables.scss">
+      <publishTime>09/16/2017 09:48:42</publishTime>
+    </File>
+    <File Include="sale/scss/style.scss">
+      <publishTime>09/16/2017 09:48:42</publishTime>
+    </File>
+    <File Include="sale/video/.DS_Store">
+      <publishTime>09/16/2017 09:48:42</publishTime>
+    </File>
+    <File Include="Tailieu/Tai_lieu_iCab.zip">
+      <publishTime>09/16/2017 09:48:41</publishTime>
+    </File>
+    <File Include="Tai_lieu_iCab.zip">
+      <publishTime>06/08/2017 09:12:54</publishTime>
+    </File>
+    <File Include="vitrikhachhang/.DS_Store">
+      <publishTime>09/16/2017 09:48:42</publishTime>
+    </File>
+    <File Include="vitrikhachhang/css/reset.css">
+      <publishTime>09/16/2017 09:48:42</publishTime>
+    </File>
+    <File Include="vitrikhachhang/css/style.css">
+      <publishTime>09/16/2017 09:48:42</publishTime>
+    </File>
+    <File Include="vitrikhachhang/favicon.png">
+      <publishTime>09/16/2017 09:48:42</publishTime>
+    </File>
+    <File Include="vitrikhachhang/img/.DS_Store">
+      <publishTime>09/16/2017 09:48:42</publishTime>
+    </File>
+    <File Include="vitrikhachhang/img/add-button-inside-black-circle.png">
+      <publishTime>09/16/2017 09:48:42</publishTime>
+    </File>
+    <File Include="vitrikhachhang/img/cd-arrow.svg">
+      <publishTime>09/16/2017 09:48:42</publishTime>
+    </File>
+    <File Include="vitrikhachhang/img/cd-logo.svg">
+      <publishTime>09/16/2017 09:48:42</publishTime>
+    </File>
+    <File Include="vitrikhachhang/img/cd-logo2.png">
+      <publishTime>09/16/2017 09:48:42</publishTime>
+    </File>
+    <File Include="vitrikhachhang/img/favicon.png">
+      <publishTime>09/16/2017 09:48:42</publishTime>
+    </File>
+    <File Include="vitrikhachhang/img/get-directions-button.png">
+      <publishTime>09/16/2017 09:48:42</publishTime>
+    </File>
+    <File Include="vitrikhachhang/img/ic-addplace.png">
+      <publishTime>09/16/2017 09:48:42</publishTime>
+    </File>
+    <File Include="vitrikhachhang/img/ic-menu.png">
+      <publishTime>09/16/2017 09:48:42</publishTime>
+    </File>
+    <File Include="vitrikhachhang/img/iCab-Logo.png">
+      <publishTime>09/16/2017 09:48:42</publishTime>
+    </File>
+    <File Include="vitrikhachhang/img/screen-1.png">
+      <publishTime>09/16/2017 09:48:42</publishTime>
+    </File>
+    <File Include="vitrikhachhang/img/screen-2.png">
+      <publishTime>09/16/2017 09:48:42</publishTime>
+    </File>
+    <File Include="vitrikhachhang/img/screen-3.png">
+      <publishTime>09/16/2017 09:48:42</publishTime>
+    </File>
+    <File Include="vitrikhachhang/img/screen-4.png">
+      <publishTime>09/16/2017 09:48:42</publishTime>
+    </File>
+    <File Include="vitrikhachhang/index.aspx">
+      <publishTime>09/16/2017 09:48:42</publishTime>
+    </File>
+    <File Include="vitrikhachhang/index.html">
+      <publishTime>09/16/2017 09:48:42</publishTime>
+    </File>
+    <File Include="vitrikhachhang/js/.DS_Store">
+      <publishTime>09/16/2017 09:48:42</publishTime>
+    </File>
+    <File Include="vitrikhachhang/js/jquery-2.1.1.js">
+      <publishTime>09/16/2017 09:48:42</publishTime>
+    </File>
+    <File Include="vitrikhachhang/js/main.js">
+      <publishTime>09/16/2017 09:48:42</publishTime>
+    </File>
+    <File Include="vitrikhachhang/js/modernizr.js">
+      <publishTime>09/16/2017 09:48:42</publishTime>
+    </File>
+    <File Include="vitrikhachhang/partials/_layout.scss">
+      <publishTime>09/16/2017 09:48:42</publishTime>
+    </File>
+    <File Include="vitrikhachhang/partials/_mixins.scss">
+      <publishTime>09/16/2017 09:48:42</publishTime>
+    </File>
+    <File Include="vitrikhachhang/partials/_variables.scss">
+      <publishTime>09/16/2017 09:48:42</publishTime>
+    </File>
+    <File Include="vitrikhachhang/scss/style.scss">
+      <publishTime>09/16/2017 09:48:42</publishTime>
+    </File>
+    <File Include="vitrikhachhang/video/.DS_Store">
+      <publishTime>09/16/2017 09:48:42</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>09/18/2017 15:47:09</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

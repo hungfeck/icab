@@ -1,0 +1,419 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CEB45CF0-215F-42F4-B792-8B67FDC362EA}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Icab</RootNamespace>
+    <AssemblyName>Icab</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL" />
+    <Reference Include="Oracle.DataAccess, Version=2.112.1.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\app\HUNGFECK\product\11.2.0\client_1\ODP.NET\bin\2.x\Oracle.DataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\css\ajax-loader.gif" />
+    <Content Include="assets\css\animate.css" />
+    <Content Include="assets\css\bootstrap.min.css" />
+    <Content Include="assets\css\font-awesome.min.css" />
+    <Content Include="assets\css\slick.css" />
+    <Content Include="assets\css\styles.css" />
+    <Content Include="assets\fonts\flexslider-icon.svg" />
+    <Content Include="assets\fonts\fontawesome-webfont.svg" />
+    <Content Include="assets\img\avatar\avatar1.png" />
+    <Content Include="assets\img\avatar\avatar2.png" />
+    <Content Include="assets\img\avatar\avatar3.png" />
+    <Content Include="assets\img\background.png" />
+    <Content Include="assets\img\berry\berry-angled2.png" />
+    <Content Include="assets\img\berry\bk-berry-ga.jpg" />
+    <Content Include="assets\img\berry\bk-berry.jpg" />
+    <Content Include="assets\img\berry\iphone-berry.png" />
+    <Content Include="assets\img\berry\logo.png" />
+    <Content Include="assets\img\berry\screens\calendar.jpg" />
+    <Content Include="assets\img\berry\screens\menu.jpg" />
+    <Content Include="assets\img\berry\screens\options.jpg" />
+    <Content Include="assets\img\berry\screens\profile.jpg" />
+    <Content Include="assets\img\berry\screens\sales.jpg" />
+    <Content Include="assets\img\berry\screens\signup.jpg" />
+    <Content Include="assets\img\berry\screens\weather.jpg" />
+    <Content Include="assets\img\berry\Slides\berry-slide2.png" />
+    <Content Include="assets\img\berry\Slides\family-berry.png" />
+    <Content Include="assets\img\berry\Slides\hand-berry.png" />
+    <Content Include="assets\img\eco\bk-eco-ga.jpg" />
+    <Content Include="assets\img\eco\bk-eco.jpg" />
+    <Content Include="assets\img\eco\eco-angled2.png" />
+    <Content Include="assets\img\eco\iphone-eco.png" />
+    <Content Include="assets\img\eco\logo.png" />
+    <Content Include="assets\img\eco\screens\calendar.jpg" />
+    <Content Include="assets\img\eco\screens\menu.jpg" />
+    <Content Include="assets\img\eco\screens\options.jpg" />
+    <Content Include="assets\img\eco\screens\profile.jpg" />
+    <Content Include="assets\img\eco\screens\sales.jpg" />
+    <Content Include="assets\img\eco\screens\signup.jpg" />
+    <Content Include="assets\img\eco\screens\weather.jpg" />
+    <Content Include="assets\img\eco\Slides\eco-slide2.png" />
+    <Content Include="assets\img\eco\Slides\family-eco.png" />
+    <Content Include="assets\img\eco\Slides\hand-eco.png" />
+    <Content Include="assets\img\freeze\bk-freeze-ga.jpg" />
+    <Content Include="assets\img\freeze\bk-freeze.jpg" />
+    <Content Include="assets\img\freeze\freeze-angled2.png" />
+    <Content Include="assets\img\freeze\iphone-freeze.png" />
+    <Content Include="assets\img\freeze\logo.png" />
+    <Content Include="assets\img\freeze\screens\calendar.jpg" />
+    <Content Include="assets\img\freeze\screens\menu.jpg" />
+    <Content Include="assets\img\freeze\screens\options.jpg" />
+    <Content Include="assets\img\freeze\screens\sales.jpg" />
+    <Content Include="assets\img\freeze\screens\screen1.png" />
+    <Content Include="assets\img\freeze\screens\signup.jpg" />
+    <Content Include="assets\img\freeze\screens\weather.jpg" />
+    <Content Include="assets\img\freeze\Slides\family-freeze.png" />
+    <Content Include="assets\img\freeze\Slides\freeze-slide2.png" />
+    <Content Include="assets\img\freeze\Slides\hand-freeze.png" />
+    <Content Include="assets\img\transparent.png" />
+    <Content Include="assets\js\bootstrap.min.js" />
+    <Content Include="assets\js\infobox.js" />
+    <Content Include="assets\js\infobox_packed.js" />
+    <Content Include="assets\js\jquery-1.11.1.min.js" />
+    <Content Include="assets\js\less-1.7.0.min.js" />
+    <Content Include="assets\js\markerclusterer.js" />
+    <Content Include="assets\js\modernizr.custom.32033.js" />
+    <Content Include="assets\js\placeholdem.min.js" />
+    <Content Include="assets\js\rs-plugin\assets\arrowleft.png" />
+    <Content Include="assets\js\rs-plugin\assets\arrowright.png" />
+    <Content Include="assets\js\rs-plugin\assets\arrow_large_left.png" />
+    <Content Include="assets\js\rs-plugin\assets\arrow_large_right.png" />
+    <Content Include="assets\js\rs-plugin\assets\arrow_left.png" />
+    <Content Include="assets\js\rs-plugin\assets\arrow_left2.png" />
+    <Content Include="assets\js\rs-plugin\assets\arrow_right.png" />
+    <Content Include="assets\js\rs-plugin\assets\arrow_right2.png" />
+    <Content Include="assets\js\rs-plugin\assets\black50.png" />
+    <Content Include="assets\js\rs-plugin\assets\boxed_bgtile.png" />
+    <Content Include="assets\js\rs-plugin\assets\bullet.png" />
+    <Content Include="assets\js\rs-plugin\assets\bullets.png" />
+    <Content Include="assets\js\rs-plugin\assets\bullets2.png" />
+    <Content Include="assets\js\rs-plugin\assets\bullet_boxed.png" />
+    <Content Include="assets\js\rs-plugin\assets\coloredbg.png" />
+    <Content Include="assets\js\rs-plugin\assets\grain.png" />
+    <Content Include="assets\js\rs-plugin\assets\gridtile.png" />
+    <Content Include="assets\js\rs-plugin\assets\gridtile_3x3.png" />
+    <Content Include="assets\js\rs-plugin\assets\gridtile_3x3_white.png" />
+    <Content Include="assets\js\rs-plugin\assets\gridtile_white.png" />
+    <Content Include="assets\js\rs-plugin\assets\large_left.png" />
+    <Content Include="assets\js\rs-plugin\assets\large_right.png" />
+    <Content Include="assets\js\rs-plugin\assets\loader.gif" />
+    <Content Include="assets\js\rs-plugin\assets\loader2.gif" />
+    <Content Include="assets\js\rs-plugin\assets\navigdots.png" />
+    <Content Include="assets\js\rs-plugin\assets\navigdots_bgtile.png" />
+    <Content Include="assets\js\rs-plugin\assets\shadow1.png" />
+    <Content Include="assets\js\rs-plugin\assets\shadow2.png" />
+    <Content Include="assets\js\rs-plugin\assets\shadow3.png" />
+    <Content Include="assets\js\rs-plugin\assets\small_left.png" />
+    <Content Include="assets\js\rs-plugin\assets\small_left_boxed.png" />
+    <Content Include="assets\js\rs-plugin\assets\small_right.png" />
+    <Content Include="assets\js\rs-plugin\assets\small_right_boxed.png" />
+    <Content Include="assets\js\rs-plugin\assets\timer.png" />
+    <Content Include="assets\js\rs-plugin\assets\timerdot.png" />
+    <Content Include="assets\js\rs-plugin\assets\transparent.jpg" />
+    <Content Include="assets\js\rs-plugin\assets\white50.png" />
+    <Content Include="assets\js\rs-plugin\css\settings-ie8.css" />
+    <Content Include="assets\js\rs-plugin\css\settings.css" />
+    <Content Include="assets\js\rs-plugin\font\revicons.svg" />
+    <Content Include="assets\js\rs-plugin\images\decor_inside.png" />
+    <Content Include="assets\js\rs-plugin\images\decor_inside_white.png" />
+    <Content Include="assets\js\rs-plugin\images\decor_testimonial.png" />
+    <Content Include="assets\js\rs-plugin\images\gradient\g30.png" />
+    <Content Include="assets\js\rs-plugin\images\gradient\g40.png" />
+    <Content Include="assets\js\rs-plugin\js\jquery.themepunch.plugins.min.js" />
+    <Content Include="assets\js\rs-plugin\js\jquery.themepunch.revolution.js" />
+    <Content Include="assets\js\rs-plugin\js\jquery.themepunch.revolution.min.js" />
+    <Content Include="assets\js\scripts.js" />
+    <Content Include="assets\js\slick.min.js" />
+    <Content Include="assets\js\waypoints.min.js" />
+    <Content Include="favicon.ico" />
+    <Content Include="favicon.png" />
+    <Content Include="gruntfile.js" />
+    <Content Include="index.aspx" />
+    <Content Include="ktvbaohanh\css\style.css" />
+    <Content Include="ktvbaohanh\index.aspx" />
+    <Content Include="maps\highmap.aspx" />
+    <Content Include="maps\highmaps.js" />
+    <Content Include="maps\index.aspx" />
+    <Content Include="maps\vn-all.js" />
+    <Content Include="Noaccess.aspx" />
+    <Content Include="sale\css\reset.css" />
+    <Content Include="sale\css\style.css" />
+    <Content Include="sale\img\cd-arrow.svg" />
+    <Content Include="sale\img\cd-logo.svg" />
+    <Content Include="sale\img\cd-logo2.png" />
+    <Content Include="sale\img\iCab-Logo.png" />
+    <Content Include="sale\img\screen-1.png" />
+    <Content Include="sale\img\screen-2.png" />
+    <Content Include="sale\img\screen-3.png" />
+    <Content Include="sale\img\screen-4.png" />
+    <Content Include="sale\index.aspx" />
+    <Content Include="sale\index.html" />
+    <Content Include="sale\js\jquery-2.1.1.js" />
+    <Content Include="sale\js\main.js" />
+    <Content Include="sale\js\modernizr.js" />
+    <Content Include="vitrikhachhang\css\reset.css" />
+    <Content Include="vitrikhachhang\css\style.css" />
+    <Content Include="vitrikhachhang\favicon.png" />
+    <Content Include="vitrikhachhang\img\add-button-inside-black-circle.png" />
+    <Content Include="vitrikhachhang\img\cd-arrow.svg" />
+    <Content Include="vitrikhachhang\img\cd-logo.svg" />
+    <Content Include="vitrikhachhang\img\cd-logo2.png" />
+    <Content Include="vitrikhachhang\img\favicon.png" />
+    <Content Include="vitrikhachhang\img\get-directions-button.png" />
+    <Content Include="vitrikhachhang\img\ic-addplace.png" />
+    <Content Include="vitrikhachhang\img\ic-menu.png" />
+    <Content Include="vitrikhachhang\img\iCab-Logo.png" />
+    <Content Include="vitrikhachhang\img\screen-1.png" />
+    <Content Include="vitrikhachhang\img\screen-2.png" />
+    <Content Include="vitrikhachhang\img\screen-3.png" />
+    <Content Include="vitrikhachhang\img\screen-4.png" />
+    <Content Include="vitrikhachhang\index.aspx" />
+    <Content Include="vitrikhachhang\index.html" />
+    <Content Include="vitrikhachhang\js\jquery-2.1.1.js" />
+    <Content Include="vitrikhachhang\js\main.js" />
+    <Content Include="vitrikhachhang\js\modernizr.js" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Entity\ResponseObject.cs" />
+    <Compile Include="Entity\User.cs" />
+    <Compile Include="Handler\CheckAlive.ashx.cs">
+      <DependentUpon>CheckAlive.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Handler\CheckLocation.ashx.cs">
+      <DependentUpon>CheckLocation.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Handler\CheckUserLocation.ashx.cs">
+      <DependentUpon>CheckUserLocation.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Handler\CountUsers.ashx.cs">
+      <DependentUpon>CountUsers.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Handler\Download.ashx.cs">
+      <DependentUpon>Download.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Handler\GetAllLocations.ashx.cs">
+      <DependentUpon>GetAllLocations.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Handler\GetInfoLocations.ashx.cs">
+      <DependentUpon>GetInfoLocations.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Handler\Login.ashx.cs">
+      <DependentUpon>Login.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Handler\SendMail.ashx.cs">
+      <DependentUpon>SendMail.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="Handler\SendMail.cs" />
+    <Compile Include="Impl\ManageiCabImpl.cs" />
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ktvbaohanh\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ktvbaohanh\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="maps\Handler\GetAllLocations.ashx.cs">
+      <DependentUpon>GetAllLocations.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="maps\highmap.aspx.cs">
+      <DependentUpon>highmap.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="maps\highmap.aspx.designer.cs">
+      <DependentUpon>highmap.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="maps\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="maps\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Noaccess.aspx.cs">
+      <DependentUpon>Noaccess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Noaccess.aspx.designer.cs">
+      <DependentUpon>Noaccess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="sale\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sale\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Service\IManageiCab.cs" />
+    <Compile Include="Service\ServiceFactory.cs" />
+    <Compile Include="vitrikhachhang\index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="vitrikhachhang\index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="assets\css\bootstrap.css.map" />
+    <Content Include="assets\fonts\flexslider-icon.eot" />
+    <Content Include="assets\fonts\flexslider-icon.ttf" />
+    <Content Include="assets\fonts\flexslider-icon.woff" />
+    <Content Include="assets\fonts\fontawesome-webfont.eot" />
+    <Content Include="assets\fonts\fontawesome-webfont.ttf" />
+    <Content Include="assets\fonts\fontawesome-webfont.woff" />
+    <Content Include="assets\fonts\FontAwesome.otf" />
+    <Content Include="assets\fonts\SVN-Raleway Italic.ttf" />
+    <Content Include="assets\fonts\SVN-RalewayRegular.ttf" />
+    <Content Include="assets\img\.DS_Store" />
+    <Content Include="assets\img\freeze\.DS_Store" />
+    <Content Include="assets\img\freeze\screens\.DS_Store" />
+    <Content Include="assets\js\.DS_Store" />
+    <Content Include="assets\js\jquery-1.11.1.min.map" />
+    <Content Include="assets\js\rs-plugin\.DS_Store" />
+    <Content Include="assets\js\rs-plugin\assets\arrows.psd" />
+    <Content Include="assets\js\rs-plugin\assets\bullets.psd" />
+    <Content Include="assets\js\rs-plugin\assets\small_arrows.psd" />
+    <Content Include="assets\js\rs-plugin\css\.DS_Store" />
+    <Content Include="assets\js\rs-plugin\font\revicons.eot" />
+    <Content Include="assets\js\rs-plugin\font\revicons.ttf" />
+    <Content Include="assets\js\rs-plugin\font\revicons.woff" />
+    <Content Include="assets\js\rs-plugin\js\.DS_Store" />
+    <Content Include="sale\.DS_Store" />
+    <Content Include="sale\img\.DS_Store" />
+    <Content Include="sale\js\.DS_Store" />
+    <Content Include="sale\partials\_layout.scss" />
+    <Content Include="sale\partials\_mixins.scss" />
+    <Content Include="sale\partials\_variables.scss" />
+    <Content Include="sale\scss\style.scss" />
+    <Content Include="sale\video\.DS_Store" />
+    <Content Include="vitrikhachhang\.DS_Store" />
+    <Content Include="vitrikhachhang\img\.DS_Store" />
+    <Content Include="vitrikhachhang\js\.DS_Store" />
+    <Content Include="vitrikhachhang\partials\_layout.scss" />
+    <Content Include="vitrikhachhang\partials\_mixins.scss" />
+    <Content Include="vitrikhachhang\partials\_variables.scss" />
+    <Content Include="vitrikhachhang\scss\style.scss" />
+    <Content Include="vitrikhachhang\video\.DS_Store" />
+    <Content Include="assets\fonts\fontawesome-webfont.woff2" />
+    <Content Include="Handler\SendMail.ashx" />
+    <Content Include="Handler\CountUsers.ashx" />
+    <Content Include="Handler\Login.ashx" />
+    <Content Include="Handler\GetAllLocations.ashx" />
+    <Content Include="maps\Handler\GetAllLocations.ashx" />
+    <Content Include="Handler\GetInfoLocations.ashx" />
+    <Content Include="Handler\CheckAlive.ashx" />
+    <Content Include="Handler\Download.ashx" />
+    <Content Include="Handler\CheckLocation.ashx" />
+    <Content Include="Handler\CheckUserLocation.ashx" />
+    <None Include="Properties\PublishProfiles\ICAB.pubxml" />
+    <Content Include="Tailieu\Tai_lieu_iCab.zip" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="assets\less\" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>13782</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:13782/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
