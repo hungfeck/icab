@@ -3,4 +3,4 @@ solution: Icab.sln
 install:
   - nuget install NUnit.Runners -Version 2.6.4 -OutputDirectory testrunner
 script:
-  - xbuild /p:Configuration=Release Icab.sln
+  - xbuild /p:Configuration=Release Icab/Icab.sln

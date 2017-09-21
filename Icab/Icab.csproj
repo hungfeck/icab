@@ -40,6 +40,10 @@
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL" />
+    <Reference Include="nunit.framework, Version=2.6.4.14350, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
+      <HintPath>..\packages\NUnit.2.6.4\lib\nunit.framework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Oracle.DataAccess, Version=2.112.1.0, Culture=neutral, PublicKeyToken=89b483f429c47342, processorArchitecture=AMD64">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\app\HUNGFECK\product\11.2.0\client_1\ODP.NET\bin\2.x\Oracle.DataAccess.dll</HintPath>
@@ -372,6 +376,7 @@
     <Content Include="Handler\Download.ashx" />
     <Content Include="Handler\CheckLocation.ashx" />
     <Content Include="Handler\CheckUserLocation.ashx" />
+    <Content Include="packages.config" />
     <None Include="Properties\PublishProfiles\ICAB.pubxml" />
     <Content Include="Tailieu\Tai_lieu_iCab.zip" />
     <None Include="Web.Debug.config">
